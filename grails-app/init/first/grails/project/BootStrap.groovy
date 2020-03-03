@@ -1,4 +1,4 @@
-package learn1
+package first.grails.project
 
 class BootStrap {
 

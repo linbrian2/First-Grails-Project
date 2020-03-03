@@ -1,4 +1,4 @@
-package learn1
+package first.grails.project
 
 import grails.boot.GrailsApp
 import grails.boot.config.GrailsAutoConfiguration

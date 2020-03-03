@@ -2,7 +2,7 @@
 grails:
     profile: web
     codegen:
-        defaultPackage: learn1
+        defaultPackage: first.grails.project
     gorm:
         reactor:
             # Whether to translate GORM events into Reactor events
