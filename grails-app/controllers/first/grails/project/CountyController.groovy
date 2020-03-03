@@ -17,8 +17,7 @@ class CountyController {
         redirect action:"index", method:"GET"
     }
     def edit(Long id) {
-        County county = County.get(id)
-        [county:county]
+        respond County.get(id)
     }
     def update(County county) {
         countyService.save(county)
