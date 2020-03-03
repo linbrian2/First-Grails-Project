@@ -28,4 +28,8 @@ class CountyController {
         countyService.delete(id)
         redirect action:"index", method:"GET"
     }
+    def populate() {
+        countyService.populate()
+        redirect action:"index", method:"GET"
+    }
 }

@@ -14,4 +14,13 @@ class County {
         suburban()
         urban()
     }
+
+    public County (String name, int population, boolean rural, boolean suburban, boolean urban) {
+        this.name = name
+        this.population = population
+        this.rural = rural
+        this.suburban = suburban
+        this.urban = urban
+    }
+
 }
