@@ -16,8 +16,13 @@ class CountyController {
         countyService.save(county)
         redirect action:"index", method:"GET"
     }
-    def edit() {
-        render "TO BE IMPLEMENTED :)"
+    def edit(Long id) {
+        County county = County.get(id)
+        [county:county]
+    }
+    def update(County county) {
+        countyService.save(county)
+        redirect action:"index", method:"GET"
     }
     def delete(Long id) {
         countyService.delete(id)
